@@ -21,8 +21,12 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'github_id',
+        'github_token',
+        'github_refresh_token',
+        'number',
+        'role',
     ];
-
     /**
      * The attributes that should be hidden for serialization.
      *

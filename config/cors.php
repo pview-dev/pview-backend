@@ -19,6 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
+    // Allow both localhost and 127.0.0.1 variants (vite/dev server may use either)
     'allowed_origins' => ['http://localhost:5173'],
 
     'allowed_origins_patterns' => [],
